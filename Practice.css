@@ -1,0 +1,37 @@
+body {
+	background-image: url("st-lucia.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+table {
+	margin-top: 50em;
+}
+
+table, th, td {
+	border: 2px solid black;
+	text-align: center;
+	border-collapse: collapse;
+	font-weight: bold;
+	font-size: 24px;
+}
+
+th {
+	font-size: 32px;
+	color: red;
+}
+
+td {
+	padding: 20px;
+}
+
+img {
+	float: right;
+	position: sticky;
+	opacity: 50%
+}
+
+img:hover {
+	opacity: 100%;
+}
